@@ -8,7 +8,80 @@
     <title>Weather Forecast</title>
 </head>
 <body>
-    
+    <div class="headerSpace container-fluid text-center">
+        <h1>Weather Forecast for Biloxi, MS</h1>
+    </div>
+    <div class="liveStreams container-fluid">
+        <div class="row">
+
+            <div class="dibervilleLiveStream col-lg-4 col-12 text-center">
+                <br><br><br><br>
+                <h2>D'Iberville Scarlet Pearl</h2>
+                <br>
+                <iframe  width="500" height="315" src="https://www.youtube.com/embed/fYsEy6RFskY?si=_UmRh35xAxBLW0_S&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                
+            </div>
+            
+        
+            <div class=" currentDay col-12 col-lg-4 text-center container">
+                <br><br><br>
+                <div class="row">
+                    <h3 id="day">Current Temperature</h3>
+                    <p id="dayForecast">Short Forecast</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img id="dayIMG" src="" alt="">
+                    </div>
+                    <div class="col-10">
+                        <p id="dayForecastDetail"></p>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <h3 id="night">Tonight's Temperature</h3>
+                    <p id="nightForecast"></p>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img id="nightIMG" src="" alt="">
+                    </div>
+                    <div class="col-10">
+                        <p id="nightForecastDetail"></p>
+                    </div>
+                </div>
+                
+                
+            </div>
+           
+
+            <div class="biloxiLiveStream col-12 col-lg-4 text-center">
+                <br><br><br><br>
+
+                <h2>Biloxi Light House </h2>
+                <br>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/T7Tgc5RNbVY?si=PIYV27lWBqojJKiB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="contianer main text-center container-fluid"> 
+        <h2>6 Day Forecast</h2>
+       
+        <div class="row daysRow">
+            <div class="day2 day col-12 col-lg-2 text-center"></div>
+            <div class="day3 day col-12 col-lg-2 text-center"></div>
+            <div class="day4 day col-12 col-lg-2 text-center"></div>
+            <div class="day5 day col-12 col-lg-2 text-center"></div>
+            <div class="day6 day col-12 col-lg-2 text-center"></div>
+            <div class="day7 day col-12 col-lg-2 text-center"></div>
+        </div>
+
+    </div>
 </body>
 <script type="text/javascript " src="app.js"></script>
 </html>

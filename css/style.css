@@ -1,0 +1,23 @@
+.day {
+    border: black, solid, 2px ;
+}
+
+.headerSpace {
+    background-color: cadetblue;
+    color: rgb(15, 15, 78);
+    padding-bottom: 2px;
+}
+
+.liveStreams {
+    background-color: cornflowerblue;
+    
+}
+
+.main {
+    background-color: cadetblue;
+}
+
+.currentDay {
+    border: black, solid, 2px;
+}
+
