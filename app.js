@@ -114,6 +114,8 @@ async function fetchGridpointsData(wfo,gridX,gridY){
             detailForecast.innerHTML=element.detailedForecast
     
             let addDiv=document.createElement("div");
+
+            let addBreak =document.createElement("br");
           
             let day2Div=document.querySelector(".day2");
             let day3Div=document.querySelector(".day3");
@@ -129,6 +131,9 @@ async function fetchGridpointsData(wfo,gridX,gridY){
              day2Div.append(currentTempPTag)
              day2Div.append(dayConditionsPTag)
              day2Div.append(detailForecast)
+             day2Div.append(addBreak)
+             day2Div.append(addBreak)
+
             }else if(element.number==5 || element.number==6){
                 day3Div.append(addDiv)
                 day3Div.append(dayName)
@@ -136,6 +141,8 @@ async function fetchGridpointsData(wfo,gridX,gridY){
                 day3Div.append(currentTempPTag)
                 day3Div.append(dayConditionsPTag)
                 day3Div.append(detailForecast)
+                day3Div.append(addBreak)
+                day3Div.append(addBreak)
             }else if(element.number==7 || element.number==8){
                 day4Div.append(addDiv)
                 day4Div.append(dayName)
@@ -143,6 +150,9 @@ async function fetchGridpointsData(wfo,gridX,gridY){
                 day4Div.append(currentTempPTag)
                 day4Div.append(dayConditionsPTag)
                 day4Div.append(detailForecast)
+                day4Div.append(addBreak)
+                day4Div.append(addBreak)
+
             }else if(element.number==9 || element.number==10){
                 day5Div.append(addDiv)
                 day5Div.append(dayName)
@@ -150,6 +160,9 @@ async function fetchGridpointsData(wfo,gridX,gridY){
                 day5Div.append(currentTempPTag)
                 day5Div.append(dayConditionsPTag)
                 day5Div.append(detailForecast)
+                day5Div.append(addBreak)
+                day5Div.append(addBreak)
+
             }else if(element.number==11 || element.number==12){
                 day6Div.append(addDiv)
                 day6Div.append(dayName)
@@ -157,6 +170,9 @@ async function fetchGridpointsData(wfo,gridX,gridY){
                 day6Div.append(currentTempPTag)
                 day6Div.append(dayConditionsPTag)
                 day6Div.append(detailForecast)
+                day6Div.append(addBreak)
+                day6Div.append(addBreak)
+
             }else if(element.number==13 || element.number==14){
                 day7Div.append(addDiv)
                 day7Div.append(dayName)
@@ -164,6 +180,9 @@ async function fetchGridpointsData(wfo,gridX,gridY){
                 day7Div.append(currentTempPTag)
                 day7Div.append(dayConditionsPTag)
                 day7Div.append(detailForecast)
+                day7Div.append(addBreak)
+                day7Div.append(addBreak)
+
             }
         }
     
